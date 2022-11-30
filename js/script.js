@@ -18,6 +18,8 @@ for (let i = 1; i <= 100; i++) {
 
     newSquare.classList.add("square");
 
+    newSquare.innerHTML = (i);
+
     gridContainer.appendChild(newSquare);
     
 }
