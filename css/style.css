@@ -27,10 +27,10 @@
         display: flex;
         flex-wrap: wrap;
         width: 650px;
-       height: 650px;
+        height: 650px;
         top: 249px;
         left: 0;
-        border: 3px solid #1d1d1f;
+        /* border: 3px solid #1d1d1f; */
         position: relative;
     }
 
