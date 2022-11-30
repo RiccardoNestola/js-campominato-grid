@@ -24,8 +24,10 @@
 
 
     .grid {
-        width: 75%;
-       /*  height: 600px; */
+        display: flex;
+        flex-wrap: wrap;
+        width: 650px;
+       height: 650px;
         top: 249px;
         left: 0;
         border: 3px solid #1d1d1f;
@@ -33,7 +35,11 @@
     }
 
     div.square {
-        width: 200px;
-        height: 200px;
+        width: calc(100% / 10);
+        height: calc(100% / 10);
         border: 2px solid #1d1d1f;
+    }
+
+    p{
+        color: #fff;
     }
