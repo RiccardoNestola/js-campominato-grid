@@ -46,3 +46,7 @@
     p{
         color: #fff;
     }
+
+    .clicked {
+        background-color: red;
+    }

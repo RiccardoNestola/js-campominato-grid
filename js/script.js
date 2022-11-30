@@ -31,6 +31,8 @@ const play = document.getElementById("play");
 play. addEventListener ("click", function () {
     console.log("click"); 
 
+    gridContainer.innerHTML = "";
+
     for (let i = 1; i <= 100; i++) {
 
         const newSquare = document.createElement("div");
@@ -38,7 +40,12 @@ play. addEventListener ("click", function () {
         newSquare.classList.add("square");
     
         newSquare.innerHTML = (i);
-    
+
+        newSquare. addEventListener ("click", function () {
+
+            newSquare.classList.toggle ('clicked')
+        });
+        
         gridContainer.appendChild(newSquare);
         
     }
@@ -48,3 +55,4 @@ play. addEventListener ("click", function () {
 
 
 });
+
